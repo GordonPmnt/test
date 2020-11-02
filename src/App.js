@@ -1,7 +1,7 @@
 import React from 'react';
 import { Home } from "./routes";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { Launchpad } from './routes';
+import { Launchpad, Starlinks } from './routes';
 
 const App = () => {
   return (
@@ -14,6 +14,10 @@ const App = () => {
         <Route 
           exact path="/launchpad/:id" 
           component={Launchpad}  
+        />
+        <Route 
+          exact path="/starlinks" 
+          component={Starlinks}  
         />
       </Switch>
     </BrowserRouter>
