@@ -1,24 +1,21 @@
 import React from 'react';
-import { Nav, Section } from './components';
-import data from "./data/data.json";
-import styled from "styled-components";
+import { Home } from "./routes";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-const Container = styled.div`
-  display: flex;
-  margin-top: 0.5%;
-  padding: 0 7.5% 0 7.5%;
-`
+
+
+
 
 const App = () => {
   return (
-    <>
-      <Nav />
-      <Container>
-        {
-          data.map(section => <Section key={section.id} title={section.title} cards={section.cards} />)
-        }
-      </Container>
-    </>
+    <BrowserRouter>
+      <Switch>
+        <Route 
+          exact path="/" 
+          component={Home}  
+        />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

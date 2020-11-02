@@ -47,6 +47,7 @@ const Duedate = styled.p`
     color: ${({ color }) => color};
     font-size: 15px;
     font-weight: 500;
+    margin: 0;
 `
 
 const Card = ({ name, text, pseudo, duedate }) => {
