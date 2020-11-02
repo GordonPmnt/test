@@ -5,9 +5,8 @@ import styled from "styled-components";
 
 const Container = styled.div`
   display: flex;
-  margin-top: 2.5%;
-  flex-direction: row;
-  justify-content: space-evenly;
+  margin-top: 0.5%;
+  padding: 0 7.5% 0 7.5%;
 `
 
 const App = () => {
