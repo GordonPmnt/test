@@ -20,10 +20,13 @@ const Name = styled.h3`
 
 const Text = styled.p`
     color: rgb(200, 200, 200);
+    line-height: 1.8;
 `
 
 const Footer = styled.div`
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 `
 
 const Pseudo = styled.div`
@@ -41,10 +44,12 @@ const Pseudo = styled.div`
 `
 
 const Duedate = styled.p`
-
+    color: ${({ color }) => color};
+    font-size: 15px;
+    font-weight: 500;
 `
 
-const Card = ({ name, text, pseudo }) => {
+const Card = ({ name, text, pseudo, duedate }) => {
     return (
         <Container>
             <div>
@@ -53,7 +58,7 @@ const Card = ({ name, text, pseudo }) => {
             </div>
             <Footer>
                 <Pseudo color={pseudo.color}>{pseudo.label}</Pseudo>
-                <Duedate></Duedate>
+                <Duedate color={duedate.color}>{duedate.text}</Duedate>
             </Footer>
         </Container>
     )

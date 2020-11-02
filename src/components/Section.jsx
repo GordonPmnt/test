@@ -25,6 +25,7 @@ const Section = ({ title, cards }) => {
                         name={card.name} 
                         text={card.text}
                         pseudo={card.pseudo}
+                        duedate={card.duedate}
                     />
                 )
             }
