@@ -1,0 +1,121 @@
+[{
+    "id": "s1",
+    "title": "Backlog",
+    "cards": [{
+        "id": "s1-c1",
+        "name": "Amet cursus sit amet dictum",
+        "text": "Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua.",
+        "pseudo": {
+            "label": "OZ",
+            "color": "rgb(77, 145, 243)"
+        },
+        "duedate": {
+            "text": "",
+            "color": ""
+        }
+    }, {
+        "id": "s1-c2",
+        "name": "Laoreet id donec ultrices tincidunt",
+        "text": "Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua.",
+        "pseudo": {
+            "label": "LE",
+            "color": "rgb(179, 73, 242)"
+        },
+        "duedate": {
+            "text": "Two days ago",
+            "color": "rgb(214, 35, 43)"
+        }
+    }, {
+        "id": "s1-c3",
+        "name": "In arcu cursus euismod quis",
+        "text": "Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua.",
+        "pseudo": {
+            "label": "ME",
+            "color": "rgb(102, 203, 246)"
+        },
+        "duedate": {
+            "text": "",
+            "color": ""
+        }
+    }]
+}, {
+    "id": "s2",
+    "title": "Todo",
+    "cards": [{
+        "id": "s2-c1",
+        "name": "Elementum tempus egestas sed sed",
+        "text": "Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua.",
+        "pseudo": {
+            "label": "AM",
+            "color": "rgb(136, 98, 246)"
+        },
+        "duedate": {
+            "text": "Today",
+            "color": "rgb(136, 98, 246)"
+        }
+    }, {
+        "id": "s2-c2",
+        "name": "Enim tortor at auctor urna",
+        "text": "Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua.",
+        "pseudo": {
+            "label": "OZ",
+            "color": "rgb(77, 145, 243)"
+        },
+        "duedate": {
+            "text": "In three days",
+            "color": "rgb(117, 212, 120)"
+        }
+    }, {
+        "id": "s2-c3",
+        "name": "Id nibh tortor id aliquet",
+        "text": "Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua.",
+        "pseudo": {
+            "label": "LE",
+            "color": "rgb(179, 73, 242)"
+        },
+        "duedate": {
+            "text": "July 21",
+            "color": "rgb(117, 212, 120)"
+        }
+    }]
+}, {    
+    "id": "s3",
+    "title": "Done",
+    "cards": [{
+        "id": "s3-c1",
+        "name": "Egestas congue quisque egestas diam",
+        "text": "Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua.",
+        "pseudo": {
+            "label": "LE",
+            "color": "rgb(179, 73, 242)"
+        },
+        "duedate": {
+            "text": "A week ago",
+            "color": "rgb(180, 180, 180)"
+        }
+    }, {
+        "id": "s3-c2",
+        "name": "Dolor magna eget est lorem",
+        "text": "Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua.",
+        "pseudo": {
+            "label": "OZ",
+            "color": "rgb(77, 145, 243)"
+        },
+        "duedate": {
+            "text": "Last Tuesday",
+            "color": "rgb(180, 180, 180)"
+        }
+    }, {
+        "id": "s3-c3",
+        "name": "Ut enim blandit volutpat maecenas",
+        "text": "Lorem ipsum dolor sit amet, incididunt ut labore et dolore magna aliqua.",
+        "pseudo": {
+            "label": "AM",
+            "color": "rgb(136, 98, 246)"
+        },
+        "duedate": {
+            "text": "",
+            "color": ""
+        }
+    }]
+}]
