@@ -6,7 +6,6 @@ const Launchpad = ({ match }) => {
     const [alert, setAlert] = useState(false)
     const { id } = match.params;
 
-
     useEffect(() => {
         Axios({
             method: 'POST',
@@ -31,8 +30,6 @@ const Launchpad = ({ match }) => {
         })
         .catch(err => setAlert(true))
     }, []);
-
-    console.log(data)
 
     return (
         <>
