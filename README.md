@@ -25,4 +25,6 @@ const Search = styled.input`
 `
 ```
 
-This create an "input" tag, with a random classname and CSS code attached.
+This creates an "input" tag, with a random classname and CSS code attached.
+
+- Exercise2: use the url to give launchpad id param to the function.
