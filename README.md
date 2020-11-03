@@ -27,4 +27,6 @@ const Search = styled.input`
 
 This creates an "input" tag, with a random classname and CSS code attached.
 
-- Exercise2: use the url to give launchpad id param to the function.
+- Exercise2: use the url to give launchpad id param to the function. This id is given as param to the mongo query.
+
+- Exercise3: use form inputs to give args to the function.
