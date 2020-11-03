@@ -25,4 +25,4 @@ const Search = styled.input`
 `
 ```
 
-This create an "<input>" tag, with a random classname and CSS code attached.
+This create an "input" tag, with a random classname and CSS code attached.
