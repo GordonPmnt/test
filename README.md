@@ -16,14 +16,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - Exercise1: The instructions where to use HTML and CSS. Since I wanted to use React-router to display different solutions, I used the library "styled-components". Why? Because this library is using HTML and CSS tags in react. As for example: 
 
 ``` jsx
-const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2px 0px 0px rgba(235,235,235,0.5);
-    height: 145px;
-    margin-bottom: 25px;
-    padding: 20px;
+const Search = styled.input`
+    font-size: 20px;
+    border: none;
+    ::placeholder {
+        color: rgb(200, 200, 200);
+    }
 `
 ```
+
+This create and <input> tag, with a random classname and CSS code attached. 
